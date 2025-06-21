@@ -1,7 +1,6 @@
 # Image to Text to Audio
 
-- ### **<a 
-"Image to Text to Audio" is a pipeline-based application that extracts text from an image and converts that extracted text into spoken audio. This project combines computer vision (OCR), natural language processing, and text-to-speech synthesis.The script uses the pytesseract library to extract text from the image and the gtts library to convert the extracted text to speech.**
+- ###  "Image to Text to Audio" is a pipeline-based application that extracts text from an image and converts that extracted text into spoken audio. This project combines computer vision (OCR), natural language processing, and text-to-speech synthesis.The script uses the pytesseract library to extract text from the image and the gtts library to convert the extracted text to speech.**
 
 
 ## Objective
