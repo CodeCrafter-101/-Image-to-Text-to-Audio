@@ -26,18 +26,7 @@ Use the package manager to install Tesseract: sudo apt-get install tesseract-ocr
 
 
 ## Project Structure
-image-to-text-to-audio/
-│
-├── images/
-│   └── sample.jpg                # Input image
-│
-├── output/
-│   └── audio.mp3                 # Generated audio file
-│
-├── main.py                       # Main script
-├── README.md                     # Project documentation
-├── requirements.txt              # Dependencies
-
+![image](https://github.com/user-attachments/assets/abd205c5-adec-4d9f-a660-aff34fb18174)
 
 
 
