@@ -21,7 +21,11 @@ Transform any image containing text (e.g., signboards, handwritten notes, docume
 
 
 ## You also need to install Tesseract-OCR - 
-Use the package manager to install Tesseract: sudo apt-get install tesseract-ocr
+Use the package manager to install Tesseract:
+
+```bash
+sudo apt-get install tesseract-ocr
+```
 
 
 
@@ -47,11 +51,15 @@ Use the package manager to install Tesseract: sudo apt-get install tesseract-ocr
 ## Text Extraction
 
 The script uses the pytesseract library to extract text from an image:
-- result = pytesseract.image_to_string(img)
+```python
+result = pytesseract.image_to_string(img)
+```
 
 
 
 ## Text-to-Speech Conversion
-The script uses the gtts library to convert the extracted text to speech and save it as an MP3 file:
--tts = gtts.gTTS(result)
+The script uses the `gtts` library to convert the extracted text to speech and save it as an MP3 file:
+```python
+tts = gtts.gTTS(result)
 tts.save("output_audio.mp3")
+```
